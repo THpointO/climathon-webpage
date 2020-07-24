@@ -1,0 +1,24 @@
+{
+  "name": "@bit/hackathons_websites.reusable_component.custom-nav-bar",
+  "version": "1.0.7",
+  "homepage": "https://bit.dev/hackathons_websites/reusable_component/custom-nav-bar",
+  "main": "dist/CustomNavBar.js",
+  "componentId": {
+    "scope": "hackathons_websites.reusable_component",
+    "name": "custom-nav-bar",
+    "version": "1.0.7"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "react-bootstrap": "^1.2.2",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.20"
+    }
+  }
+}

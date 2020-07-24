@@ -1,38 +1,115 @@
-.App {
+/* general */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"); 
+@font-face{
+  font-family: Lovelo;
+  src: url(fonts/Lovelo-Black.otf);
+}
+@media (max-width: 575.98px) { 
+	
+}
+
+/*  */
+@media (min-width: 768px) { 
+
+}
+
+html, body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.title-image {
+  width: 1000px;
+}
+
+.landing-sub-text {
+  width: 30%;
+  padding-bottom: 40px;
+  padding-left: 60px;
   text-align: center;
+  font: Bold 25px Roboto;
+  letter-spacing: 3px;
+  color: #464646;
+  opacity: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-main-text {
+  text-align: center;
+  font: Bold 40px Roboto;
+  letter-spacing: 6px;
+  color: #275F92;
+  opacity: 1; 
+  padding-left: 60%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.illustration-image {
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.landing-btn {
+  margin-left: 130px;
+  margin-top: 40px;
+  padding: 10px 30px 3px 30px;
+  border-radius: 25px;
+  border: none;
+  background: transparent radial-gradient(closest-side at 50% 50%, #F8F9F9 0%, rgb(192, 218, 228) 100%) 0% 0% no-repeat padding-box;
+  text-align: center;
+  font-size: 30px;
+  font-family: Lovelo;
+  letter-spacing: 6.3px;
+  opacity: 1;
 }
 
-.App-link {
-  color: #61dafb;
+div.container-fluid {
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.down {
+	color: grey;
+	text-align: center;
+}
+
+
+/* about page */
+
+.blue-design{
+  top: 1667px;
+  left: -768.55078125px;
+  width: 4260px;
+  height: 1345px;
+  transform: matrix(1, 0.03, -0.03, 1, 0, 0);
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #00B8B3 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF00;
+  opacity: 0.19;
+}
+
+.about-img{
+  object-fit: contain;
+  height:300px
+}
+
+.about-text{
+  text-align: center;
+  /* font: "Regular" "Roboto"; */
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  color: #000000;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about-button{
+  text-align: center;
+  font-family: Lovelo;
+  letter-spacing: 7.5px;
+  color: #000000;
+  opacity: 1;
+  font-size:35px ;
+  border: 2px solid #C7BCDC;
+  border-radius: 34px;
+  padding-top:10px
 }
