@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const AboutPage = ({ ...props }) => {
+const AboutPage = ({ ...props }) => {
     return (
         <div className='container-fluid' id='AboutPage' style={{ marginTop: 50 }}>
             <div className="row" >
@@ -11,7 +11,7 @@ export const AboutPage = ({ ...props }) => {
                 </div>
             </div>
 
-            <div className="row blue-design" style={{ marginTop: 100 }}>
+            <div style={{ marginTop: 100 }} className='blue-design row'>
                 <div className="col-5 offset-1">
                     <div className='about-button'>WHY CLIMATHON?</div>
                     <div className='about-text' style={{ marginTop: 30 }}>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.</div>

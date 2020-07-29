@@ -4,6 +4,8 @@
   font-family: Lovelo;
   src: url(fonts/Lovelo-Black.otf);
 }
+
+/* Lovelo-LineLight */
 @media (max-width: 575.98px) { 
 	
 }
@@ -75,14 +77,9 @@ div.down {
 /* about page */
 
 .blue-design{
-  top: 1667px;
-  left: -768.55078125px;
-  width: 4260px;
-  height: 1345px;
-  transform: matrix(1, 0.03, -0.03, 1, 0, 0);
-  background: transparent linear-gradient(180deg, #FFFFFF 0%, #00B8B3 100%) 0% 0% no-repeat padding-box;
-  border: 1px solid #FFFFFF00;
-  opacity: 0.19;
+  background-image: url("./images/blue-background.png");
+  background-size: contain;
+
 }
 
 .about-img{
@@ -111,5 +108,71 @@ div.down {
   font-size:35px ;
   border: 2px solid #C7BCDC;
   border-radius: 34px;
-  padding-top:10px
+  padding-top:10px;
+  background-color: transparent;
+}
+
+
+/* sponsors page */
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+div.row.carousel-images {
+  justify-content: center;
+}
+
+img.avon {
+  padding-top: 3%;
+  padding-left: 1%;
+}
+
+img.challenge {
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+img.pro {
+  padding-top: 3%;
+  padding-left: 2%;
+}
+img.hcl {
+  padding-top: 2%;
+}
+
+/* Challenges */
+
+img.challenges-image {
+  display: inline-block;
+  text-align: center;
+}
+
+/* prizes */
+
+.prizes-text{
+  width: 85%; 
+  text-align: center;
+  margin-left:auto; 
+  margin-right:auto;
+  margin-top: 2%;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: Regular;
+}
+
+/* judges */
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
 }
