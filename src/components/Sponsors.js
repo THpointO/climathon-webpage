@@ -3,7 +3,7 @@ import React from 'react';
 const Sponsors = ({ ...props }) => {
     return (
         <div>
-            <div className='about-button' style={{ width: "18%", marginLeft:'auto', marginRight:'auto', marginTop:"3%"}}>SPONSORS</div>
+            <div className='section-button col-3' >SPONSORS</div>
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="row carousel-item active">

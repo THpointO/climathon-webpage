@@ -10,6 +10,9 @@ import Challenges from './components/Challenges'
 import Prizes from './components/Prizes'
 import Judges from './components/Judges'
 import Agenda from './components/Agenda'
+import Blog from './components/Blog'
+
+
 function App(props) {
   return (
     <div >
@@ -21,6 +24,7 @@ function App(props) {
       <Prizes />
       <Judges />
       <Agenda />
+      <Blog />
       <Footer {...props} colour="#C4CBCD" />
     </div>
   );

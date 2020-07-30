@@ -2,8 +2,8 @@ import React from 'react';
 
 const Prizes = ({ ...props }) => {
     return (
-        <div style={{borderTopColor:'#707070', borderTopWidth:1, borderTopStyle:'solid', borderBottomColor:'#707070', borderBottomWidth:1, borderBottomStyle:'solid', width:"90%", marginLeft:'auto', marginRight:'auto'}}>
-            <div className='about-button' style={{ width: "18%", marginLeft:'auto', marginRight:'auto', marginTop:"3%"}}>PRIZES</div>
+        <div className='grey-border'>
+            <div className= 'section-button col-3' >PRIZES</div>
             <div className='prizes-text'>
                 Wanting to be an important figure in the support of early-stage innovation,
                 TH.0 is putting in place the opportunity of a lifetime for the winners of Climathon.

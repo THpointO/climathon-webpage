@@ -70,15 +70,18 @@ const Judges = ({ ...props }) => {
         },
     ]
     return (
-        <div className='container'>
-            {judges.map((judge) => {
-                return <div style={{textAlign:'center', marginTop:30}}>
-                    <div style={{fontWeight:'bold', fontSize:20}}>{judge.name}</div>
-                    <img src={judge.image} style={{width:'50%'}} alt="..."></img>
-                    <div>{judge.role}</div>
-                    <div>{judge.company}</div>
-                </div>
-            })}
+        <div className='grey-border' style={{marginBottom:"3%"}}>
+            <div className='section-button col-3'>JUDGES</div>
+            <div className='container'>
+                {judges.map((judge) => {
+                    return <div style={{ textAlign: 'center', marginTop: 30 }}>
+                        <div style={{ fontWeight: 'bold', fontSize: 20 }}>{judge.name}</div>
+                        <img src={judge.image} style={{ width: '50%' }} alt=""></img>
+                        <div>{judge.role}</div>
+                        <div>{judge.company}</div>
+                    </div>
+                })}
+            </div>
         </div>
     )
 }

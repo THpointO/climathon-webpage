@@ -2,7 +2,7 @@ import React from 'react';
 import { FaChevronDown } from 'react-icons/fa'
 
 
-export const LandingPage = ({ ...props }) => {
+const LandingPage = ({ ...props }) => {
     return (
         <div className='container-fluid'>
             <img src={require("../images/frontPage1Logo@2x.png")} className="title-image" alt=""></img>

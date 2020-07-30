@@ -1,5 +1,6 @@
 /* general */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @font-face{
   font-family: Lovelo;
   src: url(fonts/Lovelo-Black.otf);
@@ -15,9 +16,37 @@
 
 }
 
+/* general */
+
+.grey-border{
+  border-top-color:#707070; 
+  border-top-width:1px; 
+  border-top-style:solid;
+  width:90%; 
+  margin-left:auto;
+  margin-right:auto
+}
+
 html, body{
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+.section-button{
+  text-align: center;
+  font-family: Lovelo;
+  letter-spacing: 7.5px;
+  color: #000000;
+  opacity: 1;
+  font-size:35px ;
+  border: 2px solid #C7BCDC;
+  border-radius: 34px;
+  padding-top:10px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 3%
+  /* width: */
 }
 
 .title-image {
@@ -50,8 +79,8 @@ html, body{
 }
 
 .landing-btn {
-  margin-left: 130px;
-  margin-top: 40px;
+  margin-left: 8%;
+  /* margin-top: 40px; */
   padding: 10px 30px 3px 30px;
   border-radius: 25px;
   border: none;
@@ -99,19 +128,6 @@ div.down {
   margin-bottom: auto;
 }
 
-.about-button{
-  text-align: center;
-  font-family: Lovelo;
-  letter-spacing: 7.5px;
-  color: #000000;
-  opacity: 1;
-  font-size:35px ;
-  border: 2px solid #C7BCDC;
-  border-radius: 34px;
-  padding-top:10px;
-  background-color: transparent;
-}
-
 
 /* sponsors page */
 
@@ -151,14 +167,13 @@ img.hcl {
 }
 
 /* Challenges */
-
 img.challenges-image {
   display: inline-block;
   text-align: center;
 }
 
-/* prizes */
 
+/* prizes */
 .prizes-text{
   width: 85%; 
   text-align: center;
@@ -166,13 +181,60 @@ img.challenges-image {
   margin-right:auto;
   margin-top: 2%;
   font-family: Roboto;
-  font-size: 30px;
-  font-weight: Regular;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 4px;
 }
 
-/* judges */
 
+/* judges */
 .container{
   display: grid;
   grid-template-columns: auto auto auto auto auto;
+}
+
+/* blog */
+.blog-text{
+  width: 70%; 
+  text-align: center;
+  margin-left:auto; 
+  margin-right:auto;
+  margin-top: 2%;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+}
+
+.join-text{
+  width: 70%; 
+  text-align: center;
+  margin-left:auto; 
+  margin-right:auto;
+  margin-top: 2%;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+}
+
+/* agenda */
+
+.agenda-title{
+  color: #8DC33E; 
+  font-weight: bold; 
+  font-size:28px;
+  margin-top:3%; 
+  margin-bottom:2%
+}
+
+.agenda-box{
+  background-color: #e6e6e6;
+  color: #767676; 
+  padding-top:3%; 
+  padding-left:3%; 
+  padding-bottom:3%;
+  font-weight:500;
+  /* margin-right: 15%;  */
+  font-size: 16px;
 }
