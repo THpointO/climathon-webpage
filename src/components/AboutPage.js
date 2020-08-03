@@ -1,8 +1,8 @@
 import React from 'react';
 
 const AboutPage = ({ ...props }) => {
-    return (
-        <div className='container-fluid' id='AboutPage' style={{ marginTop: 50 }}>
+    return (  
+        <div className='container-fluid' id='AboutPage' style={{ marginTop: 50 }} id="about">
             <div className="row" >
                 <img src={require("../images/Climathon2@2x.png")} alt="" className='col-5 about-img' style={{ marginLeft: 30 }}></img>
                 <div className="col-5" style={{ marginLeft: 30 }}>

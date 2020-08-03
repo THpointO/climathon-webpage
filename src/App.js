@@ -25,9 +25,18 @@ function App(props) {
       <Judges />
       <Agenda />
       <Blog />
+      <img src={require('./images/Climathon3@2x.png')} alt="" style={{ width: "70%", marginTop:60 }}>
+      </img>
       <Footer {...props} colour="#C4CBCD" />
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+

@@ -44,6 +44,7 @@ const AboutPage = ({ ...props }) => {
                             <div>16.30 - End of Hackathon</div>
                         </div>
                     </div>
+                    <img src={require('../images/programme.png')} alt='' style={{width:'60%', marginLeft:'18%', marginTop:'3%'}}></img>
                 </div>
             </div>
         </div>

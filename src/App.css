@@ -108,7 +108,8 @@ div.down {
 .blue-design{
   background-image: url("./images/blue-background.png");
   background-size: contain;
-
+  width: 100%;
+  padding-bottom: 100px;
 }
 
 .about-img{
@@ -167,11 +168,38 @@ img.hcl {
 }
 
 /* Challenges */
-img.challenges-image {
+/* img.challenges-image {
   display: inline-block;
   text-align: center;
+} */
+
+.map{
+  width: 70%; 
+  margin-left: 22%;
+}
+.irland-flag{
+ width: 12%; 
+ margin-left: 31%;
+ margin-bottom:-10%
+}
+.scottish-flag{
+  width: 12%; 
+  margin-left: 23%;
+}
+.wales-flag{
+  width: 12%; 
+  margin-left: 25%;
+  margin-top: -15%;
+}
+.england-flag{
+  width: 12%; 
+  margin-left: 40%;
+  margin-top: -26%;
 }
 
+.irland-flag, .scottish-flag, .wales-flag, .england-flag:hover{
+  cursor: pointer
+}
 
 /* prizes */
 .prizes-text{
@@ -238,3 +266,4 @@ img.challenges-image {
   /* margin-right: 15%;  */
   font-size: 16px;
 }
+
